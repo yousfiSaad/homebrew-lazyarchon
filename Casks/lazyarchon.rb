@@ -14,22 +14,22 @@ cask "lazyarchon" do
   on_macos do
     on_intel do
       url "https://github.com/yousfisaad/lazyarchon/releases/download/v#{version}/lazyarchon-darwin-amd64.tar.gz"
-      sha256 "f739d4a6d81bce574c9ad26d37a3eeb082ef30fd5f7f12d38bf215db590925d0"
+      sha256 "196fff0a4d726639093d0af72325ad2c5e96732c65d5ed8e1fe898f188aa9c2d"
     end
     on_arm do
       url "https://github.com/yousfisaad/lazyarchon/releases/download/v#{version}/lazyarchon-darwin-arm64.tar.gz"
-      sha256 "d04bdd017eb6ab77ab4f5f931378c5ede0341c27939367a877959b22868035ae"
+      sha256 "9bb82a68de46a488b06f9b31e8073da08f27356d8b9e1c73aabd808c5128be5a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/yousfisaad/lazyarchon/releases/download/v#{version}/lazyarchon-linux-amd64.tar.gz"
-      sha256 "3746ac7eef48b043e5948e227c0155c84d4d835e93be6b54624bf4987e0b1118"
+      sha256 "7fdad79f578f0b50b68526985ef4f86d3d1b13c60c5d71793c6d09eb296b2d84"
     end
     on_arm do
       url "https://github.com/yousfisaad/lazyarchon/releases/download/v#{version}/lazyarchon-linux-arm64.tar.gz"
-      sha256 "903e0acc3e07a032e489ea037e3317920de7487aad706e1adb594f1377a58a3e"
+      sha256 "41718d1bf63fae3d5f5d6d6b1885ff6fe1b409f244d9d8bee2e14ba1862bb4cf"
     end
   end
 
