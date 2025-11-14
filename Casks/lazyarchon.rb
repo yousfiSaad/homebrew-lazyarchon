@@ -3,7 +3,7 @@ cask "lazyarchon" do
   name "lazyarchon"
   desc "Terminal UI for Archon project management"
   homepage "https://github.com/yousfisaad/lazyarchon"
-  version "2.1.0"
+  version "2.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "lazyarchon" do
   on_macos do
     on_intel do
       url "https://github.com/yousfisaad/lazyarchon/releases/download/v#{version}/lazyarchon-darwin-amd64.tar.gz"
-      sha256 "88405052f4fd776e39982f340d6b5c06060ca750446c1f80489dadcd002c32ab"
+      sha256 "62752fc0b5e20eb9a7cb71f88e83755098810fc84c4f70540a5b7715f13b7b0d"
     end
     on_arm do
       url "https://github.com/yousfisaad/lazyarchon/releases/download/v#{version}/lazyarchon-darwin-arm64.tar.gz"
-      sha256 "3f8d54b1957674414456cb9921013056f016523f202239e3f38b4c973ba72fbe"
+      sha256 "09c26fe5332d60f64c1370d7cd07c1169ecc823e76cae0472be63a1ba7a8f099"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/yousfisaad/lazyarchon/releases/download/v#{version}/lazyarchon-linux-amd64.tar.gz"
-      sha256 "336b8afe2048ccd9a8395046fc41c2795842f819bee1ac7076604c11f99712b3"
+      sha256 "1839c24fa0eb2fb822f416a61296bf2fc0918a9f8a4a589aa8f86420d2829710"
     end
     on_arm do
       url "https://github.com/yousfisaad/lazyarchon/releases/download/v#{version}/lazyarchon-linux-arm64.tar.gz"
-      sha256 "97bf8d34837ff91aeeb1ceac64b80482c54dc3d9cdab3543c2363bd11911e21d"
+      sha256 "a198742eef953f208336d2fb85aed5b2bc4c6fe26d3bce6a4204df867dc0a2a4"
     end
   end
 
